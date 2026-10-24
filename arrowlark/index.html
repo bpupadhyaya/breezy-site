@@ -3,12 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>Arrowlark: Arrow Escape, a bouncy arrow game by Breezy</title>
-<meta name="description" content="Arrowlark: Arrow Escape is a bouncy arrow-sliding game for iPhone and Android. Clear the board in ribbon order. Coming soon.">
+<meta name="description" content="Arrowlark: Arrow Escape is a bouncy arrow-sliding game for iPhone and Android. Clear the board in ribbon order and hatch 36 sticker larks. Coming soon.">
 <meta property="og:title" content="Arrowlark: Arrow Escape">
-<meta property="og:description" content="Slide the arrows out, in ribbon order. A bouncy pop-graphic game by Breezy. Coming soon.">
-<meta property="og:image" content="img/home.jpg">
+<meta property="og:description" content="Slide the arrows out, in ribbon order. A bouncy arrow game by Breezy. Coming soon.">
+<meta property="og:image" content="img/og.jpg">
 <link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="stylesheet" href="arrowlark.css">
 </head>
 <body>
@@ -17,52 +19,55 @@
 <main>
 <div class="hero">
   <div>
+    <img class="wordmark" src="img/wordmark.png" alt="Arrowlark" width="470" height="180">
     <span class="tagpill">ARROW ESCAPE</span>
-    <h1><span class="a">arrow</span><span class="b">lark</span></h1>
-    <p class="lead">Tap an arrow and it zips straight out of the board, if nothing is in its way. Clear them all in the order of the ribbon. Easy to learn, pleasantly tricky to master.</p>
-    <div class="cta"><span class="store soon"><small>COMING SOON</small>App Store</span><span class="store soon"><small>COMING SOON</small>Google Play</span></div>
+    <h1>Tap. Whoosh. <em>Gone.</em></h1>
+    <p class="lead">Slide every arrow out of the board, in the order of the colour ribbon. Easy to learn, pleasantly tricky to master, and a flock of sticker larks to collect.</p>
+    <div class="cta"><span class="store"><small>COMING SOON</small>App Store</span><span class="store"><small>COMING SOON</small>Google Play</span></div>
   </div>
-  <div class="phones" aria-hidden="true">
-    <div class="phone p1"><img src="img/home.jpg" alt="" width="390" height="844"></div>
-    <div class="phone p2"><img src="img/play.jpg" alt="" width="390" height="844"></div>
+  <div class="phones">
+    <div class="phone p1"><img src="img/shot-1.jpg" alt="A small board with a pink arrow ready to leave" width="640" height="1387"></div>
+    <div class="phone p2"><img src="img/shot-2.jpg" alt="A larger tangle of pink, lilac and mint arrows" width="640" height="1387"></div>
+    <img class="lark-hero" src="img/lark-cheer.png" alt="" width="190" height="190">
   </div>
 </div>
 <section id="how">
   <h2>How it plays</h2>
-  <p class="sub">Two rules, understood in the first level. Every board is built so that it can be cleared.</p>
+  <p class="sub">Two rules, understood in the first level. Boards are generated so that each one can be cleared.</p>
   <div class="steps">
-    <div class="step"><svg viewBox="0 0 300 170"><rect x="10" y="12" width="280" height="46" rx="23" fill="#fff" stroke="#2b1740" stroke-width="5"/><circle cx="40" cy="35" r="15" fill="#b79bff" stroke="#2b1740" stroke-width="4"/><circle cx="40" cy="35" r="21" fill="none" stroke="#2b1740" stroke-width="3" stroke-dasharray="6 5"/><circle cx="90" cy="35" r="15" fill="#ff6fae" stroke="#2b1740" stroke-width="4"/><circle cx="140" cy="35" r="15" fill="#4fd9a8" stroke="#2b1740" stroke-width="4"/><circle cx="190" cy="35" r="15" fill="#b79bff" stroke="#2b1740" stroke-width="4"/><circle cx="240" cy="35" r="15" fill="#ff6fae" stroke="#2b1740" stroke-width="4"/><path d="M60 130h120" stroke="#2b1740" stroke-width="30" stroke-linecap="round"/><path d="M60 130h120" stroke="#b79bff" stroke-width="16" stroke-linecap="round"/><path d="M178 108l36 22-36 22z" fill="#b79bff" stroke="#2b1740" stroke-width="6" stroke-linejoin="round"/><path d="M60 100h60" stroke="#2b1740" stroke-width="30" stroke-linecap="round" opacity=".25"/></svg><span class="n">1</span><h3>Follow the ribbon</h3><p>The ribbon at the top shows which colour leaves next. Only that colour is awake.</p></div>
-    <div class="step"><svg viewBox="0 0 300 170"><path d="M40 125h130" stroke="#2b1740" stroke-width="30" stroke-linecap="round"/><path d="M40 125h130" stroke="#ff6fae" stroke-width="16" stroke-linecap="round"/><path d="M168 103l38 22-38 22z" fill="#ff6fae" stroke="#2b1740" stroke-width="6" stroke-linejoin="round"/><path d="M232 150V60" stroke="#2b1740" stroke-width="30" stroke-linecap="round"/><path d="M232 150V60" stroke="#4fd9a8" stroke-width="16" stroke-linecap="round"/><path d="M210 70l22-38 22 38z" fill="#4fd9a8" stroke="#2b1740" stroke-width="6" stroke-linejoin="round"/><path d="M205 125l-8 0" stroke="#2b1740" stroke-width="4"/><circle cx="214" cy="125" r="0" /></svg><span class="n">2</span><h3>Keep the lane clear</h3><p>An arrow slides straight out of its head. Another arrow in the way makes it bump back.</p></div>
-    <div class="step"><svg viewBox="0 0 300 170"><path d="M40 60h120v60" stroke="#2b1740" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M40 60h120v60" stroke="#b79bff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M138 118h44l-22 38z" fill="#b79bff" stroke="#2b1740" stroke-width="6" stroke-linejoin="round"/><circle cx="240" cy="55" r="24" fill="#ffc93c" stroke="#2b1740" stroke-width="5"/><path d="M229 56l8 9 14-17" stroke="#2b1740" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="n">3</span><h3>Find the order</h3><p>Which of two same-coloured arrows goes first? The wrong pick can leave you stuck. Rewind and think again.</p></div>
+    <div class="step"><div class="vis"><img src="img/crop-ribbon.jpg" alt="The colour ribbon at the top of the screen" width="860" height="330"></div><b>1</b><h3>Follow the ribbon</h3><p>The ribbon shows which colour leaves next. Only that colour is awake and bright.</p></div>
+    <div class="step"><div class="vis"><img src="img/crop-board.jpg" alt="A board of glossy arrows" width="740" height="780"></div><b>2</b><h3>Keep the lane clear</h3><p>An arrow slides straight out of its head. If another arrow is in the way, it bumps back.</p></div>
+    <div class="step"><div class="vis"><img src="img/crop-win.jpg" alt="Three stars after a level" width="780" height="1080"></div><b>3</b><h3>Find the order</h3><p>Pick wrong and you can get stuck. Rewind is free, so think again and earn three stars.</p></div>
   </div>
 </section>
 <section>
   <h2>Ways to play</h2>
+  <p class="sub">No timers, ever.</p>
   <div class="modes">
-    <div class="mode m1"><h3>Levels</h3><p>180 boards in 12 flights, growing from a tiny tutorial to big, tangled beds of arrows. Earn up to three stars on each.</p></div>
+    <div class="mode m1"><h3>Levels</h3><p>180 boards in 12 flights, from a tiny tutorial to big tangled beds of arrows.</p></div>
     <div class="mode m2"><h3>Daily</h3><p>One new board each day, the same for everyone. Keep your streak going.</p></div>
-    <div class="mode m3"><h3>Flock Run</h3><p>An endless run of fresh boards with three hearts. Watch an optional video to fly on.</p></div>
-    <div class="mode m4"><h3>Calm and clear</h3><p>No timers. Free rewinds. Optional shape marks help tell the colours apart.</p></div>
+    <div class="mode m3"><h3>Flock Run</h3><p>An endless run of fresh boards with three hearts.</p></div>
+    <div class="mode m4"><h3>Calm and clear</h3><p>Free rewinds, optional shape marks for colours, and a calm-motion switch.</p></div>
   </div>
 </section>
 <section>
   <div class="band">
     <div><h2>Collect the flock</h2><p>Stars and daily boards earn feathers. Every few feathers hatch a new sticker: 36 larks in six colours and six accessories. Perch your favourite on the home screen.</p></div>
-    <div class="larks" aria-hidden="true"><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#ff6fae" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/><path d="M40 24l-14-9v18zM40 24l14-9v18z" fill="#ff6fae" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#b79bff" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/><path d="M32 30l3-19 8 11 7-14 7 14 8-11 3 19z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#4fd9a8" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/><path d="M24 66Q50 84 78 62l4 12Q52 96 22 78z" fill="#b79bff" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#ffb38a" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/><path d="M40 24l-14-9v18zM40 24l14-9v18z" fill="#ff6fae" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#7cc8ff" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/><path d="M32 30l3-19 8 11 7-14 7 14 8-11 3 19z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#ffe27a" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/><path d="M24 66Q50 84 78 62l4 12Q52 96 22 78z" fill="#b79bff" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#ff6fae" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/><path d="M26 36Q50 8 74 36Z" fill="#4fd9a8" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#b79bff" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#4fd9a8" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/><circle cx="66" cy="24" r="7" fill="#ffd3e6" stroke="#2b1740" stroke-width="3.5"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#ffb38a" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/><path d="M26 36Q50 8 74 36Z" fill="#4fd9a8" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#7cc8ff" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/></svg></i><i><svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="34" ry="31" fill="#ffe27a" stroke="#2b1740" stroke-width="4"/><circle cx="64" cy="49" r="8.5" fill="#fff" stroke="#2b1740" stroke-width="3.2"/><circle cx="66" cy="50" r="4" fill="#2b1740"/><path d="M80 50 L98 60 L80 70 Z" fill="#ffc93c" stroke="#2b1740" stroke-width="3.5" stroke-linejoin="round"/><circle cx="66" cy="24" r="7" fill="#ffd3e6" stroke="#2b1740" stroke-width="3.5"/></svg></i></div>
+    <img class="crop" src="img/crop-album.jpg" alt="The sticker album with collected larks" width="860" height="800" loading="lazy">
   </div>
 </section>
 <section>
   <h2>Fair by design</h2>
   <p class="sub">Free to play, with ads kept polite.</p>
   <div class="fair">
-    <div><b>Optional videos</b>Hints and extra hearts are always your choice. Nothing is ever forced mid-move.</div>
+    <div><b>Optional videos</b>Hints and extra hearts are always your choice.</div>
     <div><b>Remove forced ads</b>One small purchase removes the ads that appear between boards. Videos you ask for stay available.</div>
-    <div><b>Plays offline</b>No account, no sign-in. Your progress stays on your device.</div>
+    <div><b>Plays offline</b>No account, no sign-in. Progress stays on your device.</div>
   </div>
 </section>
 <section>
   <h2>A peek inside</h2>
-  <div class="gallery"><img src="img/shot-game.jpg" alt="A board mid-level with the colour ribbon on top" width="240" height="520"><img src="img/shot-ribbon.jpg" alt="Only the colour at the front of the ribbon is awake" width="240" height="520"><img src="img/shot-win.jpg" alt="Three stars after a level" width="240" height="520"><img src="img/shot-album.jpg" alt="The sticker album" width="240" height="520"><img src="img/shot-levels.jpg" alt="Level select with flights" width="240" height="520"></div>
+  <div class="gallery"><img src="img/shot-1.jpg" alt="Early level with a hint hand" width="250" height="542" loading="lazy"><img src="img/shot-2.jpg" alt="A busy level 30 board" width="250" height="542" loading="lazy"><img src="img/shot-3.jpg" alt="Perfect flight result with three stars" width="250" height="542" loading="lazy"><img src="img/shot-4.jpg" alt="The sticker album" width="250" height="542" loading="lazy"><img src="img/shot-5.jpg" alt="Level select" width="250" height="542" loading="lazy"></div>
 </section>
 </main>
 <footer><span>Arrowlark is made by EqualInformation, LLC (studio brand: Breezy). Support: <a href="mailto:support@equalinformation.com">support@equalinformation.com</a></span><span><a href="../privacy.html">Privacy policy</a></span></footer>
