@@ -1,0 +1,49 @@
+@font-face{font-family:Sora;font-weight:400;font-display:swap;src:url(fonts/sora-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:Sora;font-weight:600;font-display:swap;src:url(fonts/sora-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Sora;font-weight:700;font-display:swap;src:url(fonts/sora-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Sora;font-weight:800;font-display:swap;src:url(fonts/sora-latin-800-normal.woff2) format('woff2')}
+:root{--ink:#0b0620;--ink2:#150c34;--panel:rgba(26,16,66,.7);--line:rgba(166,150,255,.24);--txt:#f2eeff;--dim:#a8a1d6;--cy:#34e8ff;--mg:#ff3fd0;--lm:#aaff3c;--vi:#8f7bff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:var(--txt);font-family:Sora,system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;z-index:-1;background:radial-gradient(60vmax 50vmax at 70% -10%,rgba(120,70,230,.45),transparent 60%),radial-gradient(50vmax 40vmax at 0% 40%,rgba(30,160,220,.22),transparent 60%),radial-gradient(40vmax 40vmax at 100% 90%,rgba(255,63,208,.18),transparent 60%),var(--ink)}
+a{color:var(--cy)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+nav .brand{font-weight:800;letter-spacing:.14em;font-size:13px;color:var(--dim);text-decoration:none}
+nav .links{display:flex;gap:20px;font-size:14px;font-weight:600}
+nav .links a{color:var(--txt);text-decoration:none;opacity:.8}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:30px 0 60px}
+.icon{width:92px;height:92px;border-radius:22px;box-shadow:0 0 40px rgba(80,200,255,.4);margin-bottom:22px}
+h1{margin:0;font-size:clamp(44px,8vw,84px);font-weight:800;letter-spacing:.05em;line-height:1;background:linear-gradient(100deg,#5af1ff,#b79bff 50%,#ff62dc);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 22px rgba(120,140,255,.4))}
+.tag{letter-spacing:.4em;text-transform:uppercase;color:var(--dim);font-weight:600;font-size:13px;margin:10px 0 22px}
+.lede{font-size:19px;color:#dcd6ff;max-width:34em}
+.badges{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0 8px}
+.badge{display:inline-flex;flex-direction:column;padding:10px 22px;border-radius:16px;border:1px solid var(--line);background:var(--panel);min-width:170px}
+.badge small{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.badge b{font-size:17px}
+.soon{font-size:13px;color:var(--dim)}
+.phones{position:relative;height:640px}
+.phone{position:absolute;width:250px;border-radius:34px;border:1px solid var(--line);box-shadow:0 0 60px rgba(120,90,255,.35),0 30px 60px rgba(0,0,0,.5);overflow:hidden;background:#000}
+.phone img{display:block;width:100%}
+.phone.a{left:0;top:40px;transform:rotate(-5deg)}
+.phone.b{left:150px;top:0;z-index:2;width:270px}
+.phone.c{left:300px;top:60px;transform:rotate(5deg)}
+section{padding:54px 0}
+h2{font-size:clamp(26px,4vw,38px);font-weight:800;margin:0 0 14px;letter-spacing:.01em}
+.sub{color:var(--dim);max-width:38em;margin:0 0 30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{border:1px solid var(--line);background:var(--panel);border-radius:22px;padding:22px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--dim);font-size:15px}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+.split img{width:100%;max-width:300px;border-radius:30px;border:1px solid var(--line);box-shadow:0 0 50px rgba(120,90,255,.3);justify-self:center}
+ul.clean{padding:0;list-style:none;margin:0}
+ul.clean li{padding:12px 0;border-bottom:1px solid rgba(166,150,255,.14);color:#dcd6ff}
+ul.clean li b{color:var(--txt)}
+details{border:1px solid var(--line);background:var(--panel);border-radius:16px;padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700}
+details p{color:var(--dim);margin:10px 0 0}
+footer{padding:40px 0 60px;border-top:1px solid rgba(166,150,255,.14);color:var(--dim);font-size:14px;text-align:center}
+@media(max-width:820px){.hero,.split{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.phones{height:520px;margin:0 auto;width:100%;max-width:420px}.phone{width:190px}.phone.b{left:105px;width:205px}.phone.c{left:210px}.split img{order:-1}}
