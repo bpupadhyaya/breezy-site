@@ -50,5 +50,5 @@ h2{font-size:clamp(30px,5vw,46px);font-weight:900;margin:0 0 6px;letter-spacing:
 .gallery img{height:480px;width:auto;border:4px solid var(--ink);border-radius:28px;box-shadow:0 7px 0 var(--ink);scroll-snap-align:center;background:#fff}
 footer{border-top:4px solid var(--ink);margin-top:30px;padding-top:20px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;font-size:14px;font-weight:600}
 footer a{font-weight:800}
-@media(max-width:860px){.hero{grid-template-columns:1fr}.phones{height:520px}.steps,.fair{grid-template-columns:1fr}.modes{grid-template-columns:1fr 1fr}.band{grid-template-columns:1fr}.p1{left:calc(50% - 250px)}.p2{right:calc(50% - 250px)}}
-@media(max-width:520px){.modes{grid-template-columns:1fr}.phones{height:470px}.phone{width:200px}.p1{left:calc(50% - 205px)}.p2{right:calc(50% - 205px)}.gallery img{height:400px}.larks{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:860px){.hero{grid-template-columns:1fr}.phones{height:520px}.steps,.fair{grid-template-columns:1fr}.modes{grid-template-columns:1fr 1fr}.band{grid-template-columns:1fr}.p1{left:calc(50% - 255px)}.p2{right:calc(50% - 255px)}}
+@media(max-width:520px){.modes{grid-template-columns:1fr}.phones{height:470px}.phone{width:46%}.p1{left:3%;top:40px}.p2{right:3%;top:0}.gallery img{height:400px}.larks{grid-template-columns:repeat(4,1fr)}}
