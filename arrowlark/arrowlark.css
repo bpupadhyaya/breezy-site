@@ -21,6 +21,7 @@ h1 em { font-style: normal; background: linear-gradient(90deg, var(--pink), var(
 .lead { font-size: 19px; color: var(--ink2); max-width: 31em; margin: 0 0 26px; }
 .cta { display: flex; flex-wrap: wrap; gap: 14px; }
 .store { display: inline-flex; flex-direction: column; justify-content: center; padding: 11px 26px 12px; border-radius: 18px; background: linear-gradient(180deg, #4a2a78, #2c1250); color: #fff; font-weight: 800; font-size: 18px; line-height: 1.15; box-shadow: 0 5px 0 #170a2c, 0 14px 22px rgba(58,28,94,.25); }
+a.store { text-decoration: none; }
 .store small { font-size: 10.5px; letter-spacing: .16em; font-weight: 800; color: #6EEBC4; }
 .phones { position: relative; height: 560px; }
 .phone { position: absolute; width: 270px; border-radius: 46px; background: #2c1250; padding: 9px; box-shadow: 0 30px 60px rgba(58,28,94,.38), inset 0 0 0 2px #5a3a8a; }
