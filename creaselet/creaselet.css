@@ -19,6 +19,7 @@ a{color:inherit}
 @media (prefers-color-scheme:dark){.pill{background:#FFFBF2;color:#1F2A44}}
 .lead{font-size:clamp(18px,2.4vw,22px);max-width:30em;margin:22px 0}
 .badges{display:flex;flex-wrap:wrap;gap:12px}
+a.badge{text-decoration:none}
 .badge{display:inline-flex;flex-direction:column;padding:11px 22px;border-radius:18px;background:linear-gradient(#fff,#F0E9DA);color:#1F2A44;border:2.5px solid #1F2A44;box-shadow:0 4px 0 #1F2A44;font:800 18px/1.15 var(--sans)}.badge small{font:700 12px var(--sans);color:#4A5878;letter-spacing:.04em}
 .stage{position:relative;height:640px}
 .phone{position:relative;border-radius:34px;background:#FFFBF2;border:7px solid #FFFBF2;box-shadow:0 0 0 2.5px #1F2A44,0 26px 40px -18px rgba(31,42,68,.55);overflow:hidden;line-height:0}

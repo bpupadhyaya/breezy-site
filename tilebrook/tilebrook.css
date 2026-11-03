@@ -15,6 +15,7 @@ h1{font-weight:900;font-size:clamp(2.8rem,9vw,5.2rem);line-height:1;margin:1rem 
 .lead{font-size:1.2rem;max-width:34rem}
 .stores{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.4rem}
 .soon{display:inline-flex;flex-direction:column;padding:.6rem 1.3rem;border-radius:1rem;background:var(--cream);box-shadow:0 .22em 0 #d7c7a1,inset 0 0 0 .12em rgba(31,107,90,.15);font-weight:900;line-height:1.2}
+a.soon{text-decoration:none;color:inherit}
 .soon small{font-weight:700;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--terra-d)}
 .phone{width:100%;max-width:19rem;justify-self:center;border-radius:2rem;box-shadow:0 1.5rem 3rem rgba(14,60,48,.35)}
 h2{font-weight:900;font-size:1.9rem;margin:0 0 1rem}

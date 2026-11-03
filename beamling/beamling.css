@@ -20,6 +20,7 @@ h1{margin:0;font-size:clamp(44px,8vw,84px);font-weight:800;letter-spacing:.05em;
 .lede{font-size:19px;color:#dcd6ff;max-width:34em}
 .badges{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0 8px}
 .badge{display:inline-flex;flex-direction:column;padding:10px 22px;border-radius:16px;border:1px solid var(--line);background:var(--panel);min-width:170px}
+a.badge{text-decoration:none;color:inherit}
 .badge small{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
 .badge b{font-size:17px}
 .soon{font-size:13px;color:var(--dim)}
